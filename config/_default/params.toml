@@ -1,4 +1,4 @@
-colorScheme = "noir"
+colorScheme = "default"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
