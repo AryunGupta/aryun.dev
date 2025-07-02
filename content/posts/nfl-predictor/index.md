@@ -4,7 +4,7 @@ date: 2025-02-09
 summary: "Built a cluster of Machine Learning models from scratch that successfully predicted the winner of Super Bowl LIX by pre-processing the openly sourced data, validating the models' performance, and finally writing an actual predictor that used data such as field conditions, past record, and more."
 ---
 
-> **TL;DR**- built a cluster of Machine Learning models from scratch that successfully predicted the winner of Super Bowl LIX by pre-processing the openly sourced data, using 10s of attributes for training, validating the models' performance, and finally writing an actual predictor that used data such as field conditions, past record, and more. Since there were many models to choose from, the efficiency of each model used was also analyzed based on this use case. Major tools used- Python, Pandas, NumPy, scikitlearn, Tensorflow
+> **TL;DR**- built a cluster of Machine Learning models from scratch that successfully predicted the winner of Super Bowl LIX by pre-processing openly sourced data, using 10s of attributes for training, validating the models' performance, and finally writing an actual predictor that used data such as field conditions, past record, and more. Since there were many models to choose from, the efficiency of each model used was also analyzed based on this use case. Major tools used- Python, Pandas, NumPy, scikitlearn, Tensorflow
 
 --- 
 ## Overview
@@ -78,10 +78,14 @@ While my models had the right winners the "likelihood" was more than a coin flip
 
 ## Updates
 
+01/26/2025
+
 9:15 PM - both the predictions made by the random forest were correct.
 
 2/9/2025 - the RNN continues to show higher accuracy peaking at about 68 with an updated dataset from the conference finals results. I am now using more attributes such as temperature, wind, location, and even the referee for the analysis. Random forest accuracy increased to as good as a coin flip and predicts the Chiefs to win. The RNN predicts to Eagles to win by 1 point. At this stage while the neural network has a better accuracy the random forest feels more robust and reliable. That said, I expect the Eagles to win today.
 
 8:22 PM - correct prediction. Eagles won the Super Bowl.
+
+Code documented on my GitHub.
 
 <!-- ![nfl_prediction](nfl_github.png) -->
