@@ -1,6 +1,7 @@
 ---
 title: "Net-zero Carbon Emissions in the City"
 date: 2025-05-05
+summary: "Thorough plan and execution to combat rising carbon emissions in a city using QGIS for geospatial modeling, analyzing public transit and personal vehicle usage trends, forecasting short term and long term changes in temperature, and proposing new bus routes in underserved areas by estimating the population impacted and financial analysis."
 ---
 
 > **TL;DR**- a thorough plan and execution to combat rising carbon emissions in a city using QGIS for geospatial modeling, analyzing public transit and personal vehicle usage trends, forecasting short term and long term changes in temperature, and proposing new bus routes in underserved areas by estimating the population impacted and financial analysis. All data collected was publicly available through the city of Mesa's website, Valley Metro's budget reports, and open source weather APIs. Tools Used- Python, Pandas, NumPy scikit-learn, TensorFlow, matplotlib, QGIS 3.4, Microsoft Excel, Open-Meteo, and more.

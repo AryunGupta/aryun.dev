@@ -1,7 +1,7 @@
 ---
 title: "Predicting the winner of Super Bowl LIX"
 date: 2025-02-09
-summary: "Python|Pandas|Tensorflow|scikitlearn"
+summary: "Built a cluster of Machine Learning models from scratch that successfully predicted the winner of Super Bowl LIX by pre-processing the openly sourced data, validating the models' performance, and finally writing an actual predictor that used data such as field conditions, past record, and more."
 ---
 
 > **TL;DR**- built a cluster of Machine Learning models from scratch that successfully predicted the winner of Super Bowl LIX by pre-processing the openly sourced data, using 10s of attributes for training, validating the models' performance, and finally writing an actual predictor that used data such as field conditions, past record, and more. Since there were many models to choose from, the efficiency of each model used was also analyzed based on this use case. Major tools used- Python, Pandas, NumPy, scikitlearn, Tensorflow
