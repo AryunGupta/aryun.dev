@@ -15,7 +15,7 @@ Phoenix, AZ already struggles with intense heat in the summer and poor air quali
 
 I used LSTM and ARIMA models to forecast temperatures using historical data from Open-Meteo for over 10 years. LSTM was rather easy as I have plenty of experience with it. 2 layers, 100 units, and Adam optimizer trained for 20 epochs was the optimal configuration. For ARIMA I used autoregressive elements instead of moving averages as the change in data wasn't significant enough for it to be useful. Low MSE and RMSE again (both < 0.38) and plotted the 5 year forecast using Matplotlib. This meant a less than 0.4 C deviation in my forecast from the actual temperatures. The forecast also projects an increase in about 0.5 F by 2025.
 
-![lstm_estimation](/images/30_day_forecast.png)
+![lstm_estimation](30_day_forecast.png)
 
 ---
 
@@ -23,12 +23,12 @@ I used LSTM and ARIMA models to forecast temperatures using historical data from
 
 GIS was the major task of this project. Using Valley Metro's pubic data I visualized the bus usage over the last 12 years. Clearly the ridership declined drastically in 2020, likely due to Covid-19 (283k riders in Feb 2020 to just 154k in April 2020). Nonetheless the usage never returned to its pre pandemic levels. By my analysis this is due to a mix of the pandemic, remote work, and higher unemployment than pre 2020.
 
-![bus_ridership](/images/bus_ridership.png)
-![existing_bus_routes](/images/existing_bus_routes.png)
+![bus_ridership](bus_ridership.png)
+![existing_bus_routes](existing_bus_routes.png)
 
 QGIS 3.4 was the tool we used for spatial analysis and Excel for preprocessing demographic data. Joined population estimated to tract shapefile using the GEOID key to visualize population densit. Then we isolated the tracts with no overlapping service and put them in a different layer to clearly showcase the service gaps. In the image below each blue block shows its population. It is evident that the eastern part of Mesa is heavily underserviced, especially for a region with high population.
 
-![areas_without_buses](/images/areas_without_buses.png)
+![areas_without_buses](areas_without_buses.png)
 
 Finally another layer to map 6 new bus routes that not only served underserved areas but also avoided redundant coverage to maximize efficiency. Each route also included multiple bus stops as vertices. In the image below the new proposed routes are colored in blue, light green, pink, yellow, and dark green.
 
@@ -36,11 +36,11 @@ Finally another layer to map 6 new bus routes that not only served underserved a
 
 ## Proposing Bus Routes and Walkability Analysis
 
-![proposed_lines](/images/proposed_lines.png)
+![proposed_lines](proposed_lines.png)
 
 We also used QGIS' buffer tool to create a walkability buffer (people may want to walk to the bus stop) of 500m. This was a reasonable 5 min walk. After zeroing in on meaningful tracks by analyzing the area covered we estimated over 63,000 people gaining access to public transit within walking distance.
 
-![lines_with_buffer](/images/lines_with_buffer.png)
+![lines_with_buffer](lines_with_buffer.png)
 
 ---
 
@@ -54,5 +54,5 @@ Obviously all this would be meaningless without its financial considerations so 
 
 Finally, and the essence of this project, the environmental impact. Assuming America's national averages of 250 work days a year, 12 mile trip to work and 12 miles back, average occupany of 10 on buses, and carbon emissions of diesel and electric buses, the proposal estimates almost 8k tonnes of carbon emissions saved if just 15% of the affected 63k+ people took a diesel bus to and from work. This number goes as high as over 22k tonnes saved in case of an electric bus. Assuming an 8k tonne average, this is equivalent to eliminating over 20 million miles driven by gas powered cars, or planting over 400k trees, or 900k gallons of gas burned.
 
-![carbon_savings_diesel](/images/carbon_savings_diesel.png)
-![carbon_savings_electric](/images/carbon_savings_electric.png)
+![carbon_savings_diesel](carbon_savings_diesel.png)
+![carbon_savings_electric](carbon_savings_electric.png)

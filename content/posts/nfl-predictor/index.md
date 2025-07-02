@@ -52,7 +52,7 @@ else:
 
 For the actual training of the models I tuned the hyperparameters based on the models' performance. For the random forest I obviously tested on the accuracy since it is a classifier but for regression based models like neural networks I had to test on metrics like precision, recall, MSE, etc. Nonetheless, once satisfied, I created a function to actually make the prediction. On top of the obvious, i.e. team names and quarterbacks, this function used attributes such as home/away teams, weather (which I got from the forecast), game type (season, playoff, Super Bowl), surface, and more. The prediction was a number which represented how likely the model predicts it is that the home team would win. Value > 0 meant the home team wins. < 0 meant the away team wins, and = 0 meant OT. One obvious "gotcha" here is that in the Super Bowl there is no home team and away team. I went about this by the actual game's announcement of what team "looks like" the home team (the scoreboard was shown as KC-PHI so I used PHI as home team). Even though the game type was set as Super Bowl, this approach may not be optimal.
 
-<!-- ![nfl_code](/images/nfl_code.png) -->
+<!-- ![nfl_code](nfl_code.png) -->
 
 ```py
 result = predict_winner_rf(
@@ -84,4 +84,4 @@ While my models had the right winners the "likelihood" was more than a coin flip
 
 8:22 PM - correct prediction. Eagles won the Super Bowl.
 
-<!-- ![nfl_prediction](/images/nfl_github.png) -->
+<!-- ![nfl_prediction](nfl_github.png) -->
