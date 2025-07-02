@@ -1,0 +1,25 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Home"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+
+[[params.author.links]]
+email = "mailto:work.aryun@gmail.com"
+
+[[params.author.links]]
+github = "https://www.github.com/AryunGupta"
+
+[[params.author.links]]
+linkedin = "https://www.linkedin.com/in/aryun-gupta"
+
+["params.author"]
+name = "Aryun Gupta"
+headline = "Data Scientist | Data Engineer"
+bio = ""
