@@ -1,7 +1,6 @@
 ---
 title: "About Me"
 date: 2025-01-01
-summary: "About me ig"
 ---
 
 I'm a data scientist and engineer, and this is my personal blog. I hope to document my personal projects here that are relatively harder to showcase on GitHub as a lot of data analytics is exploratory, and also post some sports oriented blogs from a sport analytics perspective. As an ex-athlete I am naturally drawn to sports and spend a lot of time making inferences at my own time. This will be where I document some of it.
