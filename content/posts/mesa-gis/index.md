@@ -10,7 +10,7 @@ summary: "Thorough plan and execution to combat rising carbon emissions in a cit
 
 ## Problem
 
-Phoenix, AZ already struggles with intense heat in the summer and poor air quality. Population and economic growth in the metropolitan area only adds to these issues which puts vulnerable people such as the elderly, homeless, and low income households at high risk. In this project I collaborated with Tanmay Singh at Arizona State to address some of the problems that climate change has been posing in Mesa, AZ. Public transportation can be a practical and scalable segue from a carbon heavy city to working towards a carbon free city. To do this we conducted a comprehensive of the city's infrastructure and public expenditures with the goal of filling the service gaps and proposing expansion strategies that are sustainable.
+Phoenix, AZ already struggles with intense heat in the summer and poor air quality. Population and economic growth in the metropolitan area only adds to these issues which puts vulnerable people such as the elderly, homeless, and low income households at high risk. In this project I collaborated with Tanmay Singh and others at Arizona State to address some of the problems that climate change has been posing in Mesa, AZ. Public transportation can be a practical and scalable segue from a carbon heavy city to working towards a carbon free city. To do this we conducted a comprehensive of the city's infrastructure and public expenditures with the goal of filling the service gaps and proposing expansion strategies that are sustainable.enditures with the goal of filling the service gaps and proposing expansion strategies that are sustainable. The full report can be found [here](/mesa_carbon_report.pdf).
 
 ## Forecasting Temperature Trends
 
@@ -57,3 +57,5 @@ Finally, and the essence of this project, the environmental impact. Assuming Ame
 
 ![carbon_savings_diesel](carbon_savings_diesel.png)
 ![carbon_savings_electric](carbon_savings_electric.png)
+
+[Full report can be found here.](/mesa_carbon_report.pdf)
